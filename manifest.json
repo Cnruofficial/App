@@ -1,0 +1,29 @@
+{
+  "name": "Cnruofficial.online",
+  "short_name": "Cnruofficial",
+  "start_url": "https://www.cnruofficial.online/",
+  "id": "https://www.cnruofficial.online/o-nas",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "Cnruofficial.online – это платформа для русскоязычных зрителей, предлагающая удобный доступ к фильмам и сериалам. Мы стремимся создать пространство, где каждый найдет интересный контент для просмотра.",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": [
+    "business",
+    "entertainment",
+    "video"
+  ],
+  "lang": "ru"
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CNRU Official</title>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#000000" />
+</head>
+<body style="background-color: #000; color: #fff; font-family: sans-serif; text-align: center; padding: 2em;">
+  <h1>Добро пожаловать на Cnruofficial.online</h1>
+  <p>Платформа для русскоязычных зрителей с фильмами и сериалами.</p>
+</body>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js')
+      .then(reg => console.log('Service Worker зарегистрирован', reg))
+      .catch(err => console.error('Ошибка регистрации Service Worker', err));
+  }
+</script>
+</html>
